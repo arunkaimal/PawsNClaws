@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "id": "0332",
+      "username": "Arun",
+      "email": "arunkaimal1995@gmail.com",
+      "pass": "arun",
+      "c_pass": "arun"
+    },
+    {
+      "id": "1f7a",
+      "username": "Hari",
+      "email": "hari@gmail.com",
+      "pass": "hari123",
+      "c_pass": "hari123"
+    },
+    {
+      "id": "adae",
+      "username": "Rohit",
+      "email": "rohith@gmail.com",
+      "pass": "rohit",
+      "c_pass": "rohit"
+    },
+    {
+      "id": "aef9",
+      "username": "anshid",
+      "email": "anshid@gmail.com",
+      "pass": "anshid",
+      "c_pass": "anshid"
+    }
+  ]
+}
