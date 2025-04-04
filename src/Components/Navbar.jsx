@@ -24,6 +24,9 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
+                  style={({ isActive }) => ({
+                    color: isActive ? "blue" : "black",
+                  })}
                   className="nav-link active"
                   aria-current="page"
                   to={"/"}
@@ -32,25 +35,38 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="#">
-                  About
+                <NavLink
+                  className="nav-link"
+                  to={"/cats"}
+                  style={({ isActive }) => ({
+                    color: isActive ? "blue" : "black",
+                  })}
+                >
+                  Cats
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
+                  to={"/dogs"}
+                  style={({ isActive }) => ({
+                    color: isActive ? "blue" : "black",
+                  })}
+                >
+                  Dogs
                 </NavLink>
               </li>
             </ul>
-            <form className="d-flex " role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                className="btn btn-outline-success float-sm-end"
-                type="submit"
-              >
-                Search
+            <NavLink to={"/cart"}>
+            <div className="cart-icon me-3 fs-4 text-light bg-dark text-center px-3 rounded">
+            <i className="fa-solid fa-cart-plus"></i>
+            </div>
+            </NavLink>
+            <NavLink to={"/login"}>
+              <button className="btn btn-light bg-dark text-light float-sm-end">
+                Login
               </button>
-            </form>
+            </NavLink>
           </div>
         </div>
       </nav>

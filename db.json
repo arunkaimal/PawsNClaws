@@ -28,5 +28,167 @@
       "pass": "anshid",
       "c_pass": "anshid"
     }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Pedigree Chicken & Vegetables",
+      "type": "Dog Food",
+      "image": "https://image.aapkabazar.co/product/1643/1714827257532.png?type=png",
+      "oldPrice": 1200,
+      "newPrice": 999
+    },
+    {
+      "id": 2,
+      "name": "Whiskas Ocean Fish",
+      "type": "Cat Food",
+      "image": "https://aapkabazar.co/_next/image?url=https%3A%2F%2Fimage.aapkabazar.co%2Fproduct%2F6301%2F1714815880215.png%3Ftype%3Dpng&w=1080&q=75",
+      "oldPrice": 800,
+      "newPrice": 699
+    },
+    {
+      "id": 3,
+      "name": "Royal Canin Puppy",
+      "type": "Dog Food",
+      "image": "https://m.media-amazon.com/images/I/61QhBDSWvzL.jpg",
+      "oldPrice": 2500,
+      "newPrice": 2300
+    },
+    {
+      "id": 4,
+      "name": "Me-O Tuna",
+      "type": "Cat Food",
+      "image": "https://shakehands.co.in/cdn/shop/files/Tuna.png?v=1687344179",
+      "oldPrice": 500,
+      "newPrice": 450
+    },
+    {
+      "id": 5,
+      "name": "Drools",
+      "type": "Dog Food",
+      "image": "https://i0.wp.com/brigadepetcare.com/wp-content/uploads/2021/05/3301-drools-daily-nutrition-adult-dry-07-1.2kg.jpg?fit=600%2C800&ssl=1",
+      "oldPrice": 1500,
+      "newPrice": 1300
+    },
+    {
+      "id": 6,
+      "name": "Purina Pro Plan Salmon",
+      "type": "Cat Food",
+      "image": "https://m.media-amazon.com/images/I/71Y4zMf52bL.jpg",
+      "oldPrice": 1600,
+      "newPrice": 1400
+    },
+    {
+      "id": 7,
+      "name": "Farmina N&D Pumpkin",
+      "type": "Dog Food",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71SWN1UlxjL._AC_UL600_SR600,600_.jpg",
+      "oldPrice": 2800,
+      "newPrice": 2600
+    },
+    {
+      "id": 8,
+      "name": "IAMS Proactive Health",
+      "type": "Cat Food",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40247022_2-iams-proactive-health-mother-kitten-dry-premium-cat-food-with-chicken-complete-balanced-nutrition-2-12-months.jpg",
+      "oldPrice": 1000,
+      "newPrice": 850
+    },
+    {
+      "id": 9,
+      "name": "Acana Heritage Meats",
+      "type": "Dog Food",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtNLvO1UCblnJCzO-yaLdYy9orVkQTaiFYPg&s",
+      "oldPrice": 3200,
+      "newPrice": 2999
+    },
+    {
+      "id": 10,
+      "name": "Sheba Tuna & Salmon",
+      "type": "Cat Food",
+      "image": "https://cdn.onemars.net/sites/sheba_ph_Ropir_pZtz/image/large_sheba-pouch_tuna-_-salmon_1648739329898_1650457378321.png",
+      "oldPrice": 1200,
+      "newPrice": 1050
+    },
+    {
+      "id": 11,
+      "name": "Hill's Science Diet Puppy",
+      "type": "Dog Food",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3tzY_Ba5lg2hZCeBR3CAjI-wD9A1Wn2TWBQ&s",
+      "oldPrice": 2600,
+      "newPrice": 2400
+    },
+    {
+      "id": 12,
+      "name": "Royal Canin Kitten",
+      "type": "Cat Food",
+      "image": "https://www.puprise.com/wp-content/uploads/2018/11/Royal-Canin-Kitten-Chunks-in-Gravy-Cat-Food-Pouch.jpg",
+      "oldPrice": 1800,
+      "newPrice": 1650
+    },
+    {
+      "id": 13,
+      "name": "Taste of the Wild High Prairie",
+      "type": "Dog Food",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAVMZgpFfRc3-QzlneXtMAlk7zziCn7o07Q&s",
+      "oldPrice": 3400,
+      "newPrice": 3200
+    },
+    {
+      "id": 14,
+      "name": "Applaws Chicken Breast",
+      "type": "Cat Food",
+      "image": "https://www.puprise.com/wp-content/uploads/2019/08/Applaws-Chicken-Breast-with-Liver-in-Jelly-Wet-Cat-Food-70gm.jpg",
+      "oldPrice": 1400,
+      "newPrice": 1250
+    },
+    {
+      "id": 15,
+      "name": "Blue Buffalo Wilderness",
+      "type": "Dog Food",
+      "image": "https://m.media-amazon.com/images/I/71OvjAYJvKL.jpg",
+      "oldPrice": 2900,
+      "newPrice": 2700
+    },
+    {
+      "id": 16,
+      "name": "Fancy Feast Gravy Lovers",
+      "type": "Cat Food",
+      "image": "https://m.media-amazon.com/images/I/71sjBSBnLBL.jpg",
+      "oldPrice": 1100,
+      "newPrice": 950
+    },
+    {
+      "id": 17,
+      "name": "Nutro Ultra Large Breed",
+      "type": "Dog Food",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWgOhsdxjdb07ApsCxYSrNHsZJ1oJpw8Eyvw&s",
+      "oldPrice": 3500,
+      "newPrice": 3300
+    },
+    {
+      "id": 18,
+      "name": "Tiki Cat Born Carnivore",
+      "type": "Cat Food",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2CUnn1QyrChU4Clcx8ITzJcZUH0JYMYqDKA&s",
+      "oldPrice": 1500,
+      "newPrice": 1350
+    },
+    {
+      "id": 19,
+      "name": "Orijen Original",
+      "type": "Dog Food",
+      "image": "https://m.media-amazon.com/images/I/61G8dG5M3ZL.jpg",
+      "oldPrice": 4200,
+      "newPrice": 3900
+    },
+    {
+      "id": 20,
+      "name": " ",
+      "type": "Cat Food",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0mRd-kHe400pENQOq02nB1Vsc5RRok8IIiw&s",
+      "oldPrice": 2000,
+      "newPrice": 1850
+    }
   ]
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -46,6 +47,7 @@ const Login = () => {
   };
   return (
     <>
+      <Navbar/>
       <div className="container border border-info p-4 mt-5 shadow-lg rounded">
         <h1 className="text-center">Login</h1>
         <form onSubmit={handleLogin}>
