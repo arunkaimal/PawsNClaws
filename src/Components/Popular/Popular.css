@@ -1,0 +1,8 @@
+.pop-food{
+    cursor: pointer;
+}
+
+.pop-food:hover{
+    transform: scale(1.02);
+    transition: all .5s normal;
+}

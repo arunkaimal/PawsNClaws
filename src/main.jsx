@@ -4,9 +4,12 @@ import "./index.css";
 import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { ShopContext } from "./Context/ShopContext";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <ShopContext.Provider>
+      <App />
+    </ShopContext.Provider>
   </StrictMode>
 );

@@ -3,7 +3,8 @@ import "./Register.css";
 import Navbar from "../Components/Navbar";
 
 import Hero from "../Components/Hero/Hero";
-import Popular from "../Popular/Popular";
+import Popular from "../Components/Popular/Popular";
+import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
         <Hero />
         <hr className="m-5" />
         <Popular />
+        <hr className="m-5" />
+        <Footer />
       </div>
     </>
   );

@@ -1,10 +1,17 @@
-import React from "react";
-import Navbar from "../components/Navbar";
+import React, { useContext } from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer/Footer";
+import { ShopContext } from "../Context/ShopContext";
 
-const ShopCategory = () => {
+const ShopCategory = (props) => {
+  const { product } = useContext(ShopContext); 
   return (
     <>
-      <Navbar />
+      <div className="container">
+        <Navbar />
+
+        <Footer />
+      </div>
     </>
   );
 };

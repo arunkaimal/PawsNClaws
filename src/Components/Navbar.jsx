@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-info-subtle">
+      <nav className="navbar navbar-expand-lg mt-2 rounded">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to={"/"}>
+          <NavLink className="navbar-brand fs-3 fw-bold text-danger-emphasis" to={"/"}>
             Paws'N'Claws
           </NavLink>
           <button
@@ -25,7 +25,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink
                   style={({ isActive }) => ({
-                    color: isActive ? "blue" : "black",
+                    color: isActive ? "#85c2b0" : "black",
                   })}
                   className="nav-link active"
                   aria-current="page"
@@ -39,7 +39,7 @@ const Navbar = () => {
                   className="nav-link"
                   to={"/cats"}
                   style={({ isActive }) => ({
-                    color: isActive ? "blue" : "black",
+                    color: isActive ? "#85c2b0" : "black",
                   })}
                 >
                   Cats
@@ -50,7 +50,7 @@ const Navbar = () => {
                   className="nav-link"
                   to={"/dogs"}
                   style={({ isActive }) => ({
-                    color: isActive ? "blue" : "black",
+                    color: isActive ? "#85c2b0" : "black",
                   })}
                 >
                   Dogs

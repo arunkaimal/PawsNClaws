@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Item from "../Items/Item";
-
+import "./Popular.css";
 const Popular = () => {
   const [product, setDataProduct] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -27,7 +27,7 @@ const Popular = () => {
           <p>Loading.....</p>
         ) : (
           product.map((item, i) => (
-            <div className="col-3 mt-2">
+            <div className="col-3 mt-2 cursor-pointer pop-food">
               <Item
                 key={i}
                 id={item.id}
